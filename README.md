@@ -12,19 +12,21 @@ gcvbic.R: find optimal number of knots
 
 Codes and data for real data applications are in the folder named "real data".
 
-The CO_NOX file contains the data of CO and NOX  named hkair.csv and the codes.
+The "CO_NOX" folder contains the data of CO and NOX named hkair.csv and the codes.
 
-The global temperature file contains the data of global temperature  named global1850.csv and the codes.
+The "global temperature" folder contains the data of global temperature named global1850.csv and the codes.
 
-The sunspot file contains the data of sunspot  named sunspots.csv and the codes.
+The "sunspot" folder contains the data of sunspot named sunspots.csv and the codes.
 
-hkco_s.R: real data of CO 
-hknox_s.R: real data of NOX 
+hkco_s.R: codes for analyzing real data of CO 
+hknox_s.R: codes for analyzing real data of NOX 
 
-globaltem.R: real data of global temperature
+globaltem.R: codes for analyzing real data of global temperature
 
-sunspots.R: real data of sunspots numbers 
+sunspots.R: codes for analyzing real data of sunspots numbers 
 
-Two common Functions:
+Two common Functions used in all three applications:
+
 my.bibasis1.R: calculate the estimators and residual sum of squares
+
 gcvbic.R: find optimal number of knots
