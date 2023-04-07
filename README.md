@@ -2,8 +2,8 @@
 
 Codes for simulation are in the folder named "simulation".
 
-simu_mtfts.R: main procedure for calculating Table~1 in simulation 1
-simu_mtfts2.R: main procedure for calculating Table~2 in simulation 2
+simu_mtfts.R: main procedure for calculating Table 1 in simulation 1
+simu_mtfts2.R: main procedure for calculating Table 2 in simulation 2
 my.bibasis1.R: calculate the estimators and residual sum of squares
 gcvbic.R: find optimal number of knots
 
